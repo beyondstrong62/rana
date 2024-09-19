@@ -135,7 +135,7 @@ export default function Contactus() {
                       <div className="detailsIcon">
                         <FiPhone />
                       </div>
-                      <p style={{ color: "#fbd9ad" }}>+880 1603-550521</p>
+                      <p style={{ color: "#fbd9ad" }}>+91 6203370346</p>
                     </a>
                     <a
                       href="https://maps.app.goo.gl/iUHJvPAhJXwJayo68"
