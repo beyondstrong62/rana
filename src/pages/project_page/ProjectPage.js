@@ -7,12 +7,13 @@ import nyc from "../../images/face.jpeg";
 import ci2 from "../../images/signl_genrtr.webp";
 import ci from "../../images/Stm32Usart.jpeg";
 import hd from "../../images/heart disease.jpeg";
+import SEM from "../../images/speech.jpeg";
 import eco from "../../images/eco.png";
 import pp from "../../images/univsty_manag.png";
 import Hm from "../../images/Hostl_mang.jpeg";
 import Bm from "../../images/Bnk_Appln.jpeg";
-import meal from "../../images/meal.png";
-import ac from "../../images/academic.png";
+import meal from "../../images/destination.jpeg";
+import tc from "../../images/tsc.jpeg";
 import age from "../../images/age.png";
 import weatherdetect from "../../images/weatherdetect.png";
 import calculator from "../../images/calculator.png";
@@ -175,6 +176,79 @@ export default function ProjectPage() {
                                 }}
                               >
                                 Pandas, Matplotlib, Scikit-Learn
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                            >
+                              <div className="projectContent">
+                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                                🗣️Speech Emotion Recognition 
+                                </h5>
+                                <img src={SEM} alt={SEM} />
+                                <div className="project--showcaseBtn">
+                                  <a
+                                    href={
+                                      "https://github.com/beyondstrong62/Speech_Emotion_Reognition"
+                                    }
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className={"iconBtn"}
+                                    aria-labelledby={`code`}
+                                  >
+                                    <FaCode
+                                      id={`code`}
+                                      className={"icon"}
+                                      aria-label="Code"
+                                    />
+                                  </a>
+                                  <a
+                                    href={
+                                      "https://colab.research.google.com/drive/1LIu3BjrtssiPLLsGsQAiNHe8VpX4RoVa?usp=sharing"
+                                    }
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className={"iconBtn"}
+                                    aria-labelledby={`play`}
+                                  >
+                                    <FaCode
+                                      id={`code`}
+                                      className={"icon"}
+                                      aria-label="Play`"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 600,
+                                  }}
+                                >
+                                  "Developed a Speech Emotion Recognition system using LSTM with Attention model, identifying emotions like happiness, sadness, and anger from speech data with enhanced accuracy."
+                                </p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 600,
+                                }}
+                              >
+                                LSTM, Attention, tensorflow
                               </div>
                             </div>
                           </Fade>
@@ -614,13 +688,13 @@ export default function ProjectPage() {
                             >
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  Amazing Meal
+                                  Destination web App
                                 </h5>
                                 <img src={meal} alt={meal} />
                                 <div className="project--showcaseBtn">
                                   <a
                                     href={
-                                      "https://github.com/MD-MAFUJUL-HASAN/Amazing_Meal"
+                                      "https://github.com/beyondstrong62/Destination_Web_App"
                                     }
                                     target="_blank"
                                     rel="noreferrer"
@@ -644,12 +718,7 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                  Indulge in a mouthwatering meal that combines
-                                  flavors and textures to create a culinary
-                                  masterpiece. Our carefully crafted dishes are
-                                  made with the freshest ingredients, expertly
-                                  prepared to satisfy your taste buds and leave
-                                  you craving for more.
+                                  "Built a destination web app using HTML, CSS, and JavaScript. It showcases travel destinations with interactive maps and image galleries. The app is fully responsive for seamless use across devices."
                                 </p>
                               </h6>
                               <div
@@ -660,7 +729,7 @@ export default function ProjectPage() {
                                   fontWeight: 600,
                                 }}
                               >
-                                HTML, CSS, JavaScript, React
+                                HTML, CSS, JavaScript, 
                               </div>
                             </div>
                           </Fade>
@@ -677,13 +746,13 @@ export default function ProjectPage() {
                             >
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  Academia Learning Website
+                                🚦 Traffic Sign Classification
                                 </h5>
-                                <img src={ac} alt={ac} />
+                                <img src={tc} alt={tc} />
                                 <div className="project--showcaseBtn">
                                   <a
                                     href={
-                                      "https://github.com/MD-MAFUJUL-HASAN/Academia"
+                                      "https://github.com/beyondstrong62/Traffic_Management_System"
                                     }
                                     target="_blank"
                                     rel="noreferrer"
@@ -707,12 +776,7 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                  Unlock your potential with our dynamic
-                                  learning website. Access a wide range of
-                                  courses, interactive lessons, and expert
-                                  instructors to enhance your knowledge and
-                                  skills. Start your learning journey today and
-                                  expand your horizons.
+                                  A Flask-based web app that classifies traffic sign images. Users can upload an image, click to classify, and see the traffic sign's name displayed instantly. Trained on 38,000+ images for high accuracy.
                                 </p>
                               </h6>
                               <div
@@ -723,7 +787,7 @@ export default function ProjectPage() {
                                   fontWeight: 600,
                                 }}
                               >
-                                HTML, CSS, JavaScript, React
+                                MachineLearning,flask,AI
                               </div>
                             </div>
                           </Fade>

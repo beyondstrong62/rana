@@ -1,42 +1,42 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
-import axios from "axios";
 import { useState } from "react";
 import { AiOutlineSend } from "react-icons/ai";
 import { FiPhone, FiAtSign } from "react-icons/fi";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 
 export default function Contactus() {
-  const [formData, setFormData] = useState(new FormData());
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
 
     if (!(formData.name && formData.email && formData.message)) {
-      alert("Something went wrong!");
+      alert("All fields are required!");
       return;
     }
 
-    try {
-      const response = await axios.post(
-        "http://localhost:5000/api/submitForm",
-        formData
-      );
-      console.log(response.data.message); // Log the response from the backend
+    // Construct the mailto URL
+    const mailtoLink = `mailto:ranasujeet905@gmail.com?subject=Message from ${formData.name}&body=Name: ${formData.name}%0D%0AEmail: ${formData.email}%0D%0AMessage: ${formData.message}`;
 
-      alert(`Thanks ${formData.name}, I will shortly connect with you!`);
-    } catch (error) {
-      console.error("Error submitting the form:", error);
+    // Open the user's default email client with the pre-filled data
+    window.location.href = mailtoLink;
 
-      alert("Backend Server was not Running while submitting the form.");
-    }
-
-    setFormData({});
+    // Reset form fields
+    setFormData({
+      name: "",
+      email: "",
+      message: "",
+    });
   };
 
   return (
@@ -44,17 +44,14 @@ export default function Contactus() {
       <Container fluid className="certificate-section" id="about">
         <Container>
           <Row>
-            <Col
-              md={12}
-              className="certificate-description d-flex justify-content-start"
-            >
+            <Col md={12} className="certificate-description d-flex justify-content-start">
               <Zoom left cascade>
                 <h1 className="aboutme-heading">Contact me</h1>
               </Zoom>
             </Col>
             <Col md={12} id="contact" className="mt-3">
               <Row>
-                <Col md={4}>
+                <Col md={6} lg={4}>
                   <div className="contacts-form" data-aos="fade-up">
                     <form>
                       <div className="input-container d-flex flex-column">
@@ -66,9 +63,8 @@ export default function Contactus() {
                           className="form-input input-class"
                           id="username"
                           name="name"
-                          aria-describedby="emailHelp"
                           placeholder="Enter your name"
-                          value={formData.name || ""}
+                          value={formData.name}
                           onChange={handleChange}
                         />
                       </div>
@@ -81,9 +77,8 @@ export default function Contactus() {
                           className="form-input input-class"
                           name="email"
                           id="email"
-                          aria-describedby="emailHelp"
                           placeholder="Enter email"
-                          value={formData.email || ""}
+                          value={formData.email}
                           onChange={handleChange}
                         />
                       </div>
@@ -97,17 +92,13 @@ export default function Contactus() {
                           name="message"
                           rows="3"
                           placeholder="Enter message"
-                          value={formData.message || ""}
+                          value={formData.message}
                           onChange={handleChange}
                         />
                       </div>
 
                       <div className="submit-btn">
-                        <button
-                          type="submit"
-                          className="submitBtn"
-                          onClick={handleSubmit}
-                        >
+                        <button type="submit" className="submitBtn" onClick={handleSubmit}>
                           Submit
                           <AiOutlineSend className="send-icon" />
                         </button>
@@ -115,38 +106,27 @@ export default function Contactus() {
                     </form>
                   </div>
                 </Col>
-                <Col md={7}>
+                <Col md={6} lg={7} className="contacts-details-section">
                   <div className="contacts-details">
-                    <a
-                      href={`mailto:ranasujeet905@gmail.com`}
-                      className="personal-details"
-                    >
+                    <a href={`mailto:ranasujeet905@gmail.com`} className="personal-details">
                       <div className="detailsIcon">
                         <FiAtSign />
                       </div>
-                      <p style={{ color: "#fbd9ad" }}>
-                        ranasujeet905@gmail.com
-                      </p>
+                      <p className="detail-text">ranasujeet905@gmail.com</p>
                     </a>
-                    <a
-                      href={`tel:+880 1603-550521`}
-                      className="personal-details"
-                    >
+                    <a href={`tel:+91 6203370346`} className="personal-details">
                       <div className="detailsIcon">
                         <FiPhone />
                       </div>
-                      <p style={{ color: "#fbd9ad" }}>+91 6203370346</p>
+                      <p className="detail-text">+91 6203370346</p>
                     </a>
-                    <a
-                      href="https://maps.app.goo.gl/iUHJvPAhJXwJayo68"
-                      className="personal-details"
-                    >
+                    <a href="https://maps.app.goo.gl/iUHJvPAhJXwJayo68" className="personal-details">
                       <div className="personal-details">
                         <div className="detailsIcon">
                           <HiOutlineLocationMarker />
                         </div>
-                        <p style={{ color: "#fbd9ad" }}>
-                        C V RAMAN GLOBAL UNIVERSITY BACKGATE
+                        <p className="detail-text">
+                          C V RAMAN GLOBAL UNIVERSITY BACKGATE
                         </p>
                       </div>
                     </a>
@@ -160,7 +140,7 @@ export default function Contactus() {
                       title="Contact Me"
                       tabIndex="0"
                       loading="lazy"
-                      className=""
+                      className="map-frame"
                     ></iframe>
                   </div>
                 </Col>
