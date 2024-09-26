@@ -43,7 +43,7 @@ function ProjectJourney() {
           icon={<JavascriptIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Shoppy Ecommerce Website
+          Tic-Tac-Toe
           </h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -55,7 +55,7 @@ function ProjectJourney() {
           icon={<JavascriptIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Amazing Meal System
+          Stone-Paper-Scissor
           </h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -67,7 +67,7 @@ function ProjectJourney() {
           icon={<JavascriptIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Academia Learning Website
+           Weather Detection
           </h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -79,7 +79,7 @@ function ProjectJourney() {
           icon={<JavascriptIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Personal Portfolio
+          Age Calculator
           </h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -91,7 +91,7 @@ function ProjectJourney() {
           icon={<CssIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Online Payroll management System
+          Destination web App
           </h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -103,7 +103,7 @@ function ProjectJourney() {
           icon={<HtmlIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            New Year CountDown
+          Banking Application
           </h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -115,7 +115,7 @@ function ProjectJourney() {
           icon={<CodeIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Heart Disease Prediction
+          Hostel Management System
           </h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -127,7 +127,7 @@ function ProjectJourney() {
           icon={<CssIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Dual Mode Calendar
+          Heart Disease Prediction
           </h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -139,7 +139,7 @@ function ProjectJourney() {
           icon={<CssIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Dual Mode Calculator
+          University Management System
           </h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -151,7 +151,7 @@ function ProjectJourney() {
           icon={<CssIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Digital Clock
+          Shoppy Ecommerce
           </h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -163,7 +163,7 @@ function ProjectJourney() {
           icon={<JavascriptIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Age Calculator
+          STM32 Project: UART-Driven Utility 
           </h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -175,7 +175,7 @@ function ProjectJourney() {
           icon={<CodeIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Student Information Management System
+          Signal Generator System with STM32
           </h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
