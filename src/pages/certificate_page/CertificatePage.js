@@ -5,6 +5,14 @@ import { Fade } from "react-reveal";
 import ucsc from "../../images/aws.png";
 import cisco from "../../images/Cisco.png";
 import ufm from "../../images/Forage.png";
+import wp from "../../images/wipro.png";
+import Em from "../../images/emdeded.png";
+import gfg from "../../images/gfg.png";
+import gcp from "../../images/gcp.png";
+import cdng from "../../images/cfnja.png";
+import nptel from "../../images/nptel.png";
+import cdc from "../../images/codedhef.png";
+import En from "../../images/Entrepreneurship.png";
 import nactar0 from "../../images/Microsoftlrn.png";
 import nactar from "../../images/Coursera.png";
 import skill from "../../images/prodigy.png";
@@ -64,6 +72,7 @@ export default function CertificatePage() {
                                   </div>
                                 </a>
                               </div>
+                              
                               <div className="cert-body">
                                 <h2
                                   className="cert-body-title"
@@ -79,6 +88,422 @@ export default function CertificatePage() {
                                   }}
                                 >
                                   - AWS 
+                                </h3>
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+                        <Col md={4}>
+                          <Fade bottom duration={2000} distance="20px">
+                            <div className="cert-card">
+                              <div className="content">
+                                <a
+                                  href="https://drive.google.com/file/d/1zD2BpJA4YJARYX5MsEiamQoIyOnk0Azk/view?usp=sharing"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                >
+                                  <div className="content-overlay"></div>
+                                  <div
+                                    className="cert-header"
+                                    style={{ backgroundColor: "white" }}
+                                  >
+                                    {
+                                      <img
+                                        className="logo_img"
+                                        src={wp}
+                                        alt={wp}
+                                      />
+                                    }
+                                  </div>
+                                  <div className="content-details fadeIn-top">
+                                    <h3
+                                      className="content-title"
+                                      style={{ color: "black" }}
+                                    >
+                                      Certificate
+                                    </h3>
+                                  </div>
+                                </a>
+                              </div>
+                              <div className="cert-body">
+                                <h2
+                                  className="cert-body-title"
+                                  style={{ fontWeight: 700, color: "#fbd9ad" }}
+                                >
+                                Wipro Java Full-Stack
+                                </h2>
+                                <h3
+                                  className="cert-body-subtitle"
+                                  style={{
+                                    color: "#eb90ff",
+                                    marginBottom: "0px",
+                                  }}
+                                >
+                                  - Wipro
+                                </h3>
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+                        <Col md={4}>
+                          <Fade bottom duration={2000} distance="20px">
+                            <div className="cert-card">
+                              <div className="content">
+                                <a
+                                  href="https://www.linkedin.com/posts/rana-sujeet-kumar_embeddedsystems-internship-cvramanglobaluniversity-activity-7240993752679399424-124o?utm_source=share&utm_medium=member_desktop"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                >
+                                  <div className="content-overlay"></div>
+                                  <div
+                                    className="cert-header"
+                                    style={{ backgroundColor: "white" }}
+                                  >
+                                    {
+                                      <img
+                                        className="logo_img"
+                                        src={Em}
+                                        alt={Em}
+                                      />
+                                    }
+                                  </div>
+                                  <div className="content-details fadeIn-top">
+                                    <h3
+                                      className="content-title"
+                                      style={{ color: "black" }}
+                                    >
+                                      Certificate
+                                    </h3>
+                                  </div>
+                                </a>
+                              </div>
+                              <div className="cert-body">
+                                <h2
+                                  className="cert-body-title"
+                                  style={{ fontWeight: 700, color: "#fbd9ad" }}
+                                >
+                                Optimizing Embeded System & Application
+                                </h2>
+                                <h3
+                                  className="cert-body-subtitle"
+                                  style={{
+                                    color: "#eb90ff",
+                                    marginBottom: "0px",
+                                  }}
+                                >
+                                  - Embeded C
+                                </h3>
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+                        <Col md={4}>
+                          <Fade bottom duration={2000} distance="20px">
+                            <div className="cert-card">
+                              <div className="content">
+                                <a
+                                  href="https://drive.google.com/drive/folders/1sBew2jrowS5OjxLiNHBIVq0YPijknHXd"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                >
+                                  <div className="content-overlay"></div>
+                                  <div
+                                    className="cert-header"
+                                    style={{ backgroundColor: "white" }}
+                                  >
+                                    {
+                                      <img
+                                        className="logo_img"
+                                        src={cdng}
+                                        alt={cdng}
+                                      />
+                                    }
+                                  </div>
+                                  <div className="content-details fadeIn-top">
+                                    <h3
+                                      className="content-title"
+                                      style={{ color: "black" }}
+                                    >
+                                      Certificate
+                                    </h3>
+                                  </div>
+                                </a>
+                              </div>
+                              <div className="cert-body">
+                                <h2
+                                  className="cert-body-title"
+                                  style={{ fontWeight: 700, color: "#fbd9ad" }}
+                                >
+                                  21 Days of Code (DSA)
+                                </h2>
+                                <h3
+                                  className="cert-body-subtitle"
+                                  style={{
+                                    color: "#eb90ff",
+                                    marginBottom: "0px",
+                                  }}
+                                >
+                                  - Coding ninja
+                                </h3>
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+                        <Col md={4}>
+                          <Fade bottom duration={2000} distance="20px">
+                            <div className="cert-card">
+                              <div className="content">
+                                <a
+                                  href="https://drive.google.com/file/d/1Ws0v8W9r9UXRxOGOYUNX8wm-q6XBppnn/view?usp=sharing"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                >
+                                  <div className="content-overlay"></div>
+                                  <div
+                                    className="cert-header"
+                                    style={{ backgroundColor: "white" }}
+                                  >
+                                    {
+                                      <img
+                                        className="logo_img"
+                                        src={gcp}
+                                        alt={gcp}
+                                      />
+                                    }
+                                  </div>
+                                  <div className="content-details fadeIn-top">
+                                    <h3
+                                      className="content-title"
+                                      style={{ color: "black" }}
+                                    >
+                                      Certificate
+                                    </h3>
+                                  </div>
+                                </a>
+                              </div>
+                              <div className="cert-body">
+                                <h2
+                                  className="cert-body-title"
+                                  style={{ fontWeight: 700, color: "#fbd9ad" }}
+                                >
+                                  Google Cloud
+                                </h2>
+                                <h3
+                                  className="cert-body-subtitle"
+                                  style={{
+                                    color: "#eb90ff",
+                                    marginBottom: "0px",
+                                  }}
+                                >
+                                  - google
+                                </h3>
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+                        <Col md={4}>
+                          <Fade bottom duration={2000} distance="20px">
+                            <div className="cert-card">
+                              <div className="content">
+                                <a
+                                  href="https://drive.google.com/file/d/1OJ3FXMvzavtWjoptDqOTIKUSLoE1my0d/view?usp=sharinghttps://drive.google.com/file/d/1OJ3FXMvzavtWjoptDqOTIKUSLoE1my0d/view?usp=sharing"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                >
+                                  <div className="content-overlay"></div>
+                                  <div
+                                    className="cert-header"
+                                    style={{ backgroundColor: "white" }}
+                                  >
+                                    {
+                                      <img
+                                        className="logo_img"
+                                        src={En}
+                                        alt={En}
+                                      />
+                                    }
+                                  </div>
+                                  <div className="content-details fadeIn-top">
+                                    <h3
+                                      className="content-title"
+                                      style={{ color: "black" }}
+                                    >
+                                      Certificate
+                                    </h3>
+                                  </div>
+                                </a>
+                              </div>
+                              <div className="cert-body">
+                                <h2
+                                  className="cert-body-title"
+                                  style={{ fontWeight: 700, color: "#fbd9ad" }}
+                                >
+                                Entrepreneurship
+                                </h2>
+                                <h3
+                                  className="cert-body-subtitle"
+                                  style={{
+                                    color: "#eb90ff",
+                                    marginBottom: "0px",
+                                  }}
+                                >
+                                  - Wadhwani Foundation
+                                </h3>
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+                        <Col md={4}>
+                          <Fade bottom duration={2000} distance="20px">
+                            <div className="cert-card">
+                              <div className="content">
+                                <a
+                                  href="https://drive.google.com/file/d/1d7ZBSfZU_m4Y92ytrDp985U6Ifmg1rOM/view?usp=sharing"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                >
+                                  <div className="content-overlay"></div>
+                                  <div
+                                    className="cert-header"
+                                    style={{ backgroundColor: "white" }}
+                                  >
+                                    {
+                                      <img
+                                        className="logo_img"
+                                        src={gfg}
+                                        alt={gfg}
+                                      />
+                                    }
+                                  </div>
+                                  <div className="content-details fadeIn-top">
+                                    <h3
+                                      className="content-title"
+                                      style={{ color: "black" }}
+                                    >
+                                      Certificate
+                                    </h3>
+                                  </div>
+                                </a>
+                              </div>
+                              <div className="cert-body">
+                                <h2
+                                  className="cert-body-title"
+                                  style={{ fontWeight: 700, color: "#fbd9ad" }}
+                                >
+                                  Technical Content Writer
+                                </h2>
+                                <h3
+                                  className="cert-body-subtitle"
+                                  style={{
+                                    color: "#eb90ff",
+                                    marginBottom: "0px",
+                                  }}
+                                >
+                                  - Geeks for Geeks
+                                </h3>
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+                        <Col md={4}>
+                          <Fade bottom duration={2000} distance="20px">
+                            <div className="cert-card">
+                              <div className="content">
+                                <a
+                                  href="https://drive.google.com/file/d/1vfmNX1Vqc8k2nqnSCzyRupyv3oRP7FRg/view?usp=sharing"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                >
+                                  <div className="content-overlay"></div>
+                                  <div
+                                    className="cert-header"
+                                    style={{ backgroundColor: "white" }}
+                                  >
+                                    {
+                                      <img
+                                        className="logo_img"
+                                        src={nactar}
+                                        alt={nactar}
+                                      />
+                                    }
+                                  </div>
+                                  <div className="content-details fadeIn-top">
+                                    <h3
+                                      className="content-title"
+                                      style={{ color: "black" }}
+                                    >
+                                      Certificate
+                                    </h3>
+                                  </div>
+                                </a>
+                              </div>
+                              <div className="cert-body">
+                                <h2
+                                  className="cert-body-title"
+                                  style={{ fontWeight: 700, color: "#fbd9ad" }}
+                                >
+                                  Project Management: The Basics for Success
+                                </h2>
+                                <h3
+                                  className="cert-body-subtitle"
+                                  style={{
+                                    color: "#eb90ff",
+                                    marginBottom: "0px",
+                                  }}
+                                >
+                                  - Coursera
+                                </h3>
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+                        <Col md={4}>
+                          <Fade bottom duration={2000} distance="20px">
+                            <div className="cert-card">
+                              <div className="content">
+                                <a
+                                  href="https://storage.googleapis.com/swayam-node2-production_certificates/examform/certificates/ns_ini24_mg01/INI24MG01S2250101567.pdf?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=sa-google-drive%40swayam-node2-production.iam.gserviceaccount.com%2F20241225%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20241225T120329Z&X-Goog-Expires=300&X-Goog-SignedHeaders=host&X-Goog-Signature=a105d9dec3be9bf8959aa27a6015bff63d0df122a447e693f5189dc8b165984d870db4402f1fe9c81bf0cb06151b1df465334dedea124b58afa83f527fcc07d195bbb19617a9ca902011826821dc6aaba7434f988ab8cfa3fa18ce1f5f4ed4bdd9cc606c80bca4ebf15a02cb0bb4cded3b4e992c44789829559b9b3fa0fc4d90750dca52c6945a68d649aa1358589c83cba7edb3ea8ffea900e2e0dfb06efa4a3d11d617003de79572603bff51e155d8249bc4b11adf2584e40e1be9b31df38ecfb039c291e51060cc039cf0efe37ac30e32167859468c3f280255a78b165f27e3a26c94f0b331f4ff5ecb136f1ba49b0efa6f69c531ae31d36973a65282f7ac"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                >
+                                  <div className="content-overlay"></div>
+                                  <div
+                                    className="cert-header"
+                                    style={{ backgroundColor: "white" }}
+                                  >
+                                    {
+                                      <img
+                                        className="logo_img"
+                                        src={nptel}
+                                        alt={nptel}
+                                      />
+                                    }
+                                  </div>
+                                  <div className="content-details fadeIn-top">
+                                    <h3
+                                      className="content-title"
+                                      style={{ color: "black" }}
+                                    >
+                                      Certificate
+                                    </h3>
+                                  </div>
+                                </a>
+                              </div>
+                              <div className="cert-body">
+                                <h2
+                                  className="cert-body-title"
+                                  style={{ fontWeight: 700, color: "#fbd9ad" }}
+                                >
+                                  Principles of Management
+                                </h2>
+                                <h3
+                                  className="cert-body-subtitle"
+                                  style={{
+                                    color: "#eb90ff",
+                                    marginBottom: "0px",
+                                  }}
+                                >
+                                  - NPTEL Skill India
                                 </h3>
                               </div>
                             </div>
@@ -756,6 +1181,110 @@ export default function CertificatePage() {
                                   }}
                                 >
                                   - Prodigy InfoTech.
+                                </h3>
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+                        <Col md={4}>
+                          <Fade bottom duration={2000} distance="20px">
+                            <div className="cert-card">
+                              <div className="content">
+                                <a
+                                  href="https://drive.google.com/file/d/1OD433Jg6rv-S8Gx8xLcLRxqKO-nGEWuf/view?usp=sharing"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                >
+                                  <div className="content-overlay"></div>
+                                  <div
+                                    className="cert-header"
+                                    style={{ backgroundColor: "white" }}
+                                  >
+                                    {
+                                      <img
+                                        className="logo_img"
+                                        src={nactar}
+                                        alt={nactar}
+                                      />
+                                    }
+                                  </div>
+                                  <div className="content-details fadeIn-top">
+                                    <h3
+                                      className="content-title"
+                                      style={{ color: "black" }}
+                                    >
+                                      Certificate
+                                    </h3>
+                                  </div>
+                                </a>
+                              </div>
+                              <div className="cert-body">
+                                <h2
+                                  className="cert-body-title"
+                                  style={{ fontWeight: 700, color: "#fbd9ad" }}
+                                >
+                                  Deep Learning(CNN/RNN)
+                                </h2>
+                                <h3
+                                  className="cert-body-subtitle"
+                                  style={{
+                                    color: "#eb90ff",
+                                    marginBottom: "0px",
+                                  }}
+                                >
+                                  - Coursera
+                                </h3>
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+                        <Col md={4}>
+                          <Fade bottom duration={2000} distance="20px">
+                            <div className="cert-card">
+                              <div className="content">
+                                <a
+                                  href="https://www.codechef.com/certificates/public/0dad475"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                >
+                                  <div className="content-overlay"></div>
+                                  <div
+                                    className="cert-header"
+                                    style={{ backgroundColor: "white" }}
+                                  >
+                                    {
+                                      <img
+                                        className="logo_img"
+                                        src={cdc}
+                                        alt={cdc}
+                                      />
+                                    }
+                                  </div>
+                                  <div className="content-details fadeIn-top">
+                                    <h3
+                                      className="content-title"
+                                      style={{ color: "black" }}
+                                    >
+                                      Certificate
+                                    </h3>
+                                  </div>
+                                </a>
+                              </div>
+                              <div className="cert-body">
+                                <h2
+                                  className="cert-body-title"
+                                  style={{ fontWeight: 700, color: "#fbd9ad" }}
+                                >
+                                  500 difficulty rating 
+                                </h2>
+                                <h3
+                                  className="cert-body-subtitle"
+                                  style={{
+                                    color: "#eb90ff",
+                                    marginBottom: "0px",
+                                  }}
+                                >
+                                  - CodeChef
                                 </h3>
                               </div>
                             </div>
